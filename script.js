@@ -15,6 +15,7 @@ let readInputSearch = function() {
          }, 1000);
         
     } else {
+
         for (let item = 0; item < themes.length;) {
             if (String(searchQuery) == String(themes[item])) {
                 alert(themes[item]);
@@ -22,11 +23,12 @@ let readInputSearch = function() {
             } else {
                 console.log('Нет такой темы');
                 item++;
-
-                if (item == themes.length - 1) {
-                    alert("На данный момент нет статьи на вашу тему...");
-                }
             }
+
+            if (item == themes.length) {
+                alert("На данный момент нет статьи на вашу тему...");
+            }
+
         }
     }
 
