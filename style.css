@@ -127,8 +127,26 @@ section {
     font-size: 16pt;
 }
 
+
+/* START USE_LINK CLASS STYLE */
+
 #AliExpress::first-letter {
     color: #f00;
+    font-size: 16pt;
+}
+
+#NATK::first-letter {
+    color: #29cdff;
+    font-size: 16pt;
+}
+
+#DoNATK::first-letter {
+    color: #ffb829;
+    font-size: 16pt;
+}
+
+#DoNATK_Span {
+    color: #29cdff;
     font-size: 16pt;
 }
 
@@ -143,7 +161,7 @@ section {
 }
 
 #MailAnswers::first-letter {
-    color: #05f;
+    color: #0ba4e5;
     font-size: 16pt;
 }
 
@@ -158,12 +176,12 @@ section {
 }
 
 #GoogleTranslater::first-letter {
-    color: #00f;
+    color: #009adb;
     font-size: 16pt;
 }
 
 #VK::first-letter {
-    color: #05f;
+    color: #517ef0;
     font-size: 16pt;
 }
 
@@ -177,13 +195,22 @@ section {
     font-size: 16pt;
 }
 
+#D2K::first-letter {
+    color: gray;
+    font-size: 16pt;
+}
 
+
+/*
 #AddWebPage {
     font-size: 16pt;
     color: #fff;
     padding: 14px;
     text-align: center;
-}
+} */
+
+/* END USE_LINK STYLE */
+
 
 footer {
     flex-shrink: 0;
