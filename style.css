@@ -200,6 +200,11 @@ section {
     font-size: 16pt;
 }
 
+#hitek::first-letter {
+    color: lightgreen;
+    font-size: 16pt;
+}
+
 
 /*
 #AddWebPage {
